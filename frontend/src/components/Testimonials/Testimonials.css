@@ -1,0 +1,99 @@
+/* testimonials.css */
+
+.testimonials-wrapper {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .testimonials {
+    position: relative;
+    width: 30%;
+    height: 100%;
+  }
+  
+  .testimonial-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .testimonial-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+    transition: 0.5s;
+  }
+  
+  .testimonial-item.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .testimonial-title {
+    width: 100%;
+    position: absolute;
+    top:5px;
+    left: 5%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: animate 1s ease-in-out 1 forwards;
+    font-family: 'Beauty', sans-serif;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; 
+  }
+  
+  .testimonial-title.active {
+    opacity: 1;
+    transform: translateY(0);
+    animation: animate 1s ease-in-out 1 forwards;
+  }
+  
+  @keyframes animate {
+    from {
+      opacity: 0;
+      transform: translate(0, 100px);
+      filter: blur(33px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0);
+      filter: blur(0);
+    }
+  }
+  
+  .posters {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .poster-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .poster-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  .poster-item.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  

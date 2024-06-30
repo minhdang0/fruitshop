@@ -1,0 +1,91 @@
+.wrapper-content {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    text-align: center;
+    
+  }
+  
+  .section-heading.style-2 {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .box-header{
+    position: absolute;
+    top:10%;
+  }
+  .box-header .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .box-header .icon {
+    margin-right: 10px;
+    color: gold;
+    font-size: 30px;
+  }
+  
+  .box-countdown {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9534f;
+    left: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box-countdown span {
+    margin: 0 5px;
+  }
+  .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9534f;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .time {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text-color);
+   
+  }
+  
+  .label {
+    font-size: 7px;
+    color: var(--text-color);
+  }
+  .flash-sale-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card-discount{
+    margin-top: 50px;
+  }
+  /* FlashSale.css */
+.card-discount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-discount .col-lg-3 {
+  flex: 0 0 23%; 
+  max-width: 23%; 
+  margin-bottom: 1rem; 
+}

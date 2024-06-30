@@ -1,0 +1,7 @@
+.vertical-header {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg); 
+    white-space: nowrap; 
+    width: 30px; 
+  }
+  

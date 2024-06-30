@@ -1,0 +1,14 @@
+.location , .location_details{
+    display: flex;
+    font-size: 15px;
+}
+.location i{
+    margin-right: 5px;
+    color: #BB0000;
+}
+
+.location_details div, .location span{
+    margin-right: 5px;
+    font-size: 15px;
+}
+

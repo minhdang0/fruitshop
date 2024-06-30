@@ -1,0 +1,51 @@
+
+.footer
+{
+    margin-top: 70px;
+    padding-bottom: 30px;
+    background-color:var(--secondary-color) ;
+}
+
+.footer .logo img 
+{
+    margin-left: 65px;
+    margin-top: 15px;
+    width: 45%;
+    height: 45%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+ .logo span
+{
+
+    color: var(--text-color);
+}
+l
+.title
+{
+    position: relative;
+    font-size: 1.1rem;   
+}
+.info-title{
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.info-detail p{
+    color: var(--text-color);
+    font-size: 15px;  
+    font-family: inherit;
+    line-height: 30px;
+}
+.social_links span a
+{
+    
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.6rem;
+}
+.social_links span a:nth-child(1){
+    margin-left: 15px;
+}
